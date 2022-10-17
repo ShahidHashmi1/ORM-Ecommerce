@@ -6,6 +6,8 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
+  res.send('All categories listed here')
+  console.log(`This is a console log of the request: ${req}`)
 });
 
 router.get('/:id', (req, res) => {
