@@ -5,55 +5,19 @@
 ## Table of Contents
 
 - [Description](#description)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
 - [Mock Up](#mock-up)
-- [Submission](#submission)
 - [License](#license)
 
 ## Description
-<ul>
-<li>This is a full-stack application that demonstrates api routes that are deployed to a server (insomnia in this case). The video demonstrates the ability to complete Get, Put, Post, and Delete requests within the scope of insomnia, while simultaneously updated the database on mysql.</li>
-</ul>
 
-## USER STORY
-
-```
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
-
-## ACCEPTANCE CRITERIA
-
-```
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
-```
+This is a full-stack application that demonstrates api routes that are deployed to a server (insomnia in this case). The video demonstrates the ability to complete Get, Put, Post, and Delete requests within the scope of insomnia, while simultaneously updated the database on mysql. Codebase includes schema and seed commands to establish basis of database. The server is started and the models for the MySQL database are synced. In this project, the Sequelize wrapper is used to have a more DRY code.
+<p>MySQL password, database name, and username are added to an environment variable for protection.</p>
 
 ## MOCK UP
 
-  
-
 https://user-images.githubusercontent.com/109056779/196849444-e5eaa08a-c337-4163-9f64-7f84b222ad98.mp4
-
-
   
 <a href="https://drive.google.com/file/d/1niw5gYASiaDmCnmDmwoWBaPP_-fkcf7d/view?usp=sharing" target="_blank">A video walkthroguh can be found through the link here, if the embedded video does not load properly.</a>
-
-
-## SUBMISSION
-
-<a href="https://github.com/ShahidHashmi1/ORM-Ecommerce" target="_blank">The codebase and Github repository can be found here.</a>
 
 ## License
 
